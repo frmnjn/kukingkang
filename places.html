@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>An Animal Saving Site</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.css" />
+	<style type="text/css">
+		body{
+			font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color: black;
+			height: auto;
+			width: auto;
+			background: rgba(50,50,50,0.1);
+			margin-top: 100px;
+		}
+		#navbar-menu{
+			font-size: 18px;
+			font-weight: normal;
+			letter-spacing: 1px;
+			line-height: 38px;
+			padding: 10px;
+			margin-left: 20%;
+		}
+
+		#nav-bar{
+			background: rgba(10, 10, 10, 0.9);
+			border: 0;
+		}
+
+		#nav-bar img{
+			width: 40px;
+			height: auto;
+			margin-top: 15px;
+		}
+
+		#navbar-menu a{
+			color: white;
+			margin: 5px;
+		}
+
+		#navbar-menu ul li a{
+			color: black;
+		}
+
+		#section1{
+			background-image: url('img1.png');  
+			background-size: cover;      
+			background-repeat: no-repeat;        
+			position: relative;
+			padding: 20em;     
+			border: 0;
+			font-weight: bold;
+		}
+
+		#section1 h2, #section1 p{
+			font-weight: bold;
+		}
+
+		#s1footer{
+			color: white;
+			border: 0;
+			background: rgb(50,50,50);
+		}
+
+		#s1footer h4{
+			color: grey;
+		}
+
+		#gallery-carousel{
+			width: 100%;
+		}
+
+		#profile h2{
+			color:white;
+		}
+
+
+		.marker1{
+			position:absolute;
+			width:15px;height:15px;
+			border-radius:50%;
+			background:red;
+			left:67%;
+			top:71%;
+		}
+
+		.marker2{
+			position:absolute;
+			width:15px;height:15px;
+			border-radius:50%;
+			background:red;
+			left:71%;
+			top:50%;
+		}
+
+		.marker3{
+			position:absolute;
+			width:15px;height:15px;
+			border-radius:50%;
+			background:red;
+			left:28%;
+			top:50%;
+		}
+
+
+		.marker1:hover{
+			background: greenyellow;
+		}
+
+		.marker2:hover{
+			background: greenyellow;
+		}
+
+		.marker3:hover{
+			background: greenyellow;
+		}
+
+		.text1{
+			position: absolute;
+			font-weight: bold;
+			left:63%;
+			top:68%;
+			-webkit-animation-duration: 2s;
+		}
+
+		.text2{
+			position: absolute;
+			font-weight: bold;
+			left:69.5%;
+			top:47%;
+			-webkit-animation-duration: 2s;
+		}
+
+		.text3{
+			position: absolute;
+			font-weight: bold;
+			left:23%;
+			top:47%;
+			-webkit-animation-duration: 2s;
+		}
+	</style>
+</head>
+<body>
+	<nav id="nav-bar"class="navbar navbar-default navbar-fixed-top" id="main-navbar" role="navigation">
+		<div class="container">
+			<div class ="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="sr-only">toggle navigate</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html"><img src="icon1.png"></a>
+				
+			</div>
+			<div class="collpase navbar-collapse" id="navbar-collapse">
+				<ul id="navbar-menu" class="nav navbar-nav">
+					<li><a href="index.html">Home<span class="caret"></span></a></li>		
+					<li><a href="species.html">Species</a></li>
+					<li><a href="places.html">Places</a></li>
+					<li><a href="donate.html">Donate</a></li>
+					<li><a href="faq.html">F.A.Q</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div>
+		<img src="map.png" style="margin-left: 180px; margin-top: 60px;">
+		<span class="marker1"></span>
+		<span class="marker2"></span> 
+		<span class="marker3"></span> 
+	</div>
+
+	<div class="text1 animated zoomIn infinite">
+		Borneo & Sumatra
+	</div>
+
+	<div class="text2 animated zoomIn infinite">
+		Yangtze
+	</div>
+
+	<div class="text3 animated zoomIn infinite">
+		Northern Great Plains
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<titleAn Animal Saving Site</title>
+	<link rel="stylesheet" type="text/css" href="javascript.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+
+	<style>
+		/* Reset CSS
+		 * --------------------------------------- */
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+		form,fieldset,input,textarea,p,blockquote,th,td {
+		    padding: 0;
+		    margin: 0;
+		}
+		a{
+			text-decoration:none;
+		}
+		table {
+		    border-spacing: 0;
+		}
+		fieldset,img {
+		    border: 0;
+		}
+		address,caption,cite,code,dfn,em,strong,th,var {
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		strong{
+			font-weight: bold;
+		}
+		ol,ul {
+		    list-style: none;
+		    margin:0;
+		    padding:0;
+		}
+		caption,th {
+		    text-align: left;
+
+		}
+		h1,h2,h3,h4,h5,h6 {
+		    font-weight: normal;
+		    font-size: 100%;
+		    margin:0;
+		    padding:0;
+		    color:#444;
+		}
+		q:before,q:after {
+		    content:'';
+		}
+		abbr,acronym { border: 0;
+		}
+
+
+		/* Custom CSS
+		 * --------------------------------------- */
+		body{
+			font-family: arial,helvetica;
+			color: #F2F2F2;
+		}
+		h1{
+			font-size: 6em;
+		}
+		p{
+			font-size: 2em;
+		}
+		.content{
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		/* Section 1
+		 * --------------------------------------- */
+		#section0{
+			background-color: #DBE95C;
+		}
+
+		#section0 .content{
+			text-align: center;
+		}
+
+		#section0 h1{
+			color: white;
+		}
+		#section0 p{
+			color: white;
+			opacity: 0.4;
+		}
+
+
+		/* Section 2
+		 * --------------------------------------- */
+		#section-1{
+			background-color: #68A6DC;
+		}
+
+		#section-1 .content{
+			text-align: center;
+		}
+
+		#section-1 h1{
+			color: #fff;
+		}
+		#section-1 p{
+			opacity: 0.8;
+		}
+
+
+
+	</style>
+	<style type="text/css">
+		body{
+			font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+			color: black;
+			height: auto;
+			width: auto;
+			background: rgb(50,50,50);
+		}
+		#navbar-menu{
+			font-size: 18px;
+    		font-weight: normal;
+    		letter-spacing: 1px;
+    		line-height: 38px;
+    		margin-left: 20%;
+    		padding: 10px;
+		}
+
+		#nav-bar{
+			background: rgba(10, 10, 10, 0.9);
+			border: 0;
+		}
+
+		#nav-bar img{
+			width: 40px;
+			height: auto;
+			margin-top: 15px;
+		}
+
+		#navbar-menu a{
+			color: white;
+			margin: 5px;
+		}
+
+		#navbar-menu ul li a{
+			color: black;
+		}
+
+		#section1{
+			background-image: url('img1.png');  
+			background-size: cover;      
+    		background-repeat: no-repeat;        
+    		position: relative;
+    		padding: 20em;     
+    		border: 0;
+    		font-weight: bold;
+		}
+
+		#section1 h2, #section1 p{
+			font-weight: bold;
+		}
+
+		#s1footer{
+			color: white;
+			border: 0;
+			background: rgb(50,50,50);
+		}
+
+		#s1footer h4{
+			color: grey;
+		}
+
+		#gallery-carousel{
+			width: 100%;
+		}
+
+		#profile h2{
+			color:white;
+		}
+
+
+
+
+	</style>
+</head>
+<body data-spy="scroll" data-target="#main-navbar">
+
+<nav id="nav-bar"class="navbar navbar-default navbar-fixed-top" id="main-navbar" role="navigation">
+		<div class="container">
+			<div class ="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="sr-only">toggle navigate</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html"><img src="icon1.png"></a>
+			</div>
+			<div class="collpase navbar-collapse" id="navbar-collapse">
+				<ul id="navbar-menu" class="nav navbar-nav">
+					<li><a href="index.html">Home<span class="caret"></span></a></li>
+					<li><a href="species.html">Species</a></li>
+					<li><a href="places.html">Places</a></li>
+					<li><a href="donate.html">Donate</a></li>
+					<li><a href="faq.html">F.A.Q</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div class="slide" id="slide1">
+			<div class="content">
+				<h1>Q : What is Kukingkang ?</h1>
+				<p>Kukingkang is a charity community that helps some endangered animals</p><br>
+			</div>
+		</div>
+		<div class="slide" id="slide2">
+			<div class="content">
+				<h1>Q : What kukingkang do ? </h1>
+				<p>Kukingkang does some help to you so you can help animals too</p><br>
+			</div>
+		</div>
+		<div class="slide" id="slide3">
+			<div class="content">
+				<h1>Q : How do i help ?</h1>
+				<p>Please <a href="donate.html">donate</a> to us or you can simply pray and support our action</p><br>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="section-1">
+		<div class="content">
+			<h1>Let Us Know</h1><br>
+			<form class="form-inline">
+				<textarea class="form-control" id="Textarea" rows="8" cols="100"></textarea>
+			</form>
+			<br>
+			<form class="form-inline">
+			<div class="form-group row">
+			    <div class="col-sm-6">
+			      <input type="password" class="form-control" id="inputPassword" placeholder="Name (optional)">
+			    </div>
+			</div>
+			<div class="form-group row">
+			    <div class="col-sm-6">
+			      <input type="password" class="form-control" id="inputPassword" placeholder="Email (optional)">
+			    </div>
+			</div>
+			<button type="submit" class="btn btn-default">Send</button>
+			</form>
+			<p style="font-size:15px;"><small><em>We Wont send ads to your email</em></small></p>		
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="javascript.fullPage.js"></script>
+<script type="text/javascript">
+	fullpage.initialize('#fullpage', {
+		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+		menu: '#menu',
+		css3:true
+	});
+
+</script>
+
+</body>
+</html>
